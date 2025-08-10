@@ -1,0 +1,67 @@
+# 📅 Phase 1 – Python & Foundations Progress Tracker
+
+## ✅ Week 1–2: Python Basics
+- [ ] Variables, data types (int, float, string, bool)
+- [ ] Basic math & operators
+- [ ] Strings and string methods
+- [ ] Lists, tuples, dictionaries, sets
+- [ ] Conditionals (if, elif, else)
+- [ ] Loops (for, while) & loop control (break, continue)
+- [ ] Functions (arguments, return values)
+- [ ] Basic input/output
+- [ ] Practice problems
+
+---
+
+## ✅ Week 3: Intermediate Python
+- [ ] File handling (read/write text & CSV)
+- [ ] Error handling (try, except)
+- [ ] Python modules & libraries (`math`, `random`, etc.)
+- [ ] List comprehensions
+- [ ] Intro to `pip` and installing packages
+- [ ] Practice mini-projects
+
+---
+
+## ✅ Week 4: Python + Data Handling
+- [ ] Introduction to `pandas` & `numpy`
+- [ ] Reading CSV/Excel with pandas
+- [ ] Basic data cleaning (handling NaN, duplicates)
+- [ ] Simple data analysis (mean, sum, sort, groupby)
+- [ ] Simple plots with `matplotlib`
+- [ ] Portfolio Project 1 – **Simple Data Analysis**
+
+---
+
+## ✅ Week 5–6: OOP & Advanced Python
+- [ ] Classes & objects
+- [ ] Methods & attributes
+- [ ] Inheritance
+- [ ] Special methods (`__init__`, `__str__`)
+- [ ] Working with `datetime`
+- [ ] More complex mini-projects
+
+---
+
+## ✅ Week 7: Python for Data Science
+- [ ] Numpy deep dive
+- [ ] Pandas intermediate
+- [ ] Data visualization with `matplotlib` & `seaborn`
+- [ ] Practice exploratory data analysis (EDA)
+- [ ] Portfolio Project 2 – **EDA on Public Dataset**
+
+---
+
+## ✅ Week 8: Wrap-up & Deployment Basics
+- [ ] Review core concepts
+- [ ] Finalize portfolio projects
+- [ ] Learn `streamlit` basics
+- [ ] Deploy one project online
+- [ ] Push final code to GitHub
+
+---
+
+### 📌 Notes
+- Update this file **every week** after completing topics.
+- Keep commits small and frequent.
+- Every portfolio project should have its **own folder** in this repo.
