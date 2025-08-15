@@ -1,7 +1,7 @@
 import re
 # Open the file in read mode
 
-fn = input("Enter file name: ") #Enter file name: 
+fn = input("Enter file name: ") #Enter file name: c:\Users\TANMAY\OneDrive\Documents\GitHub\python-ml-learning-journey\Python Days\regex_sum_2277849.txt
 fh = open(fn)
 inp= fh.read()
 lst = list()
