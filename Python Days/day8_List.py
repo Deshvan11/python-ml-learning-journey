@@ -81,3 +81,18 @@ for movie in movies:
     print(movie)
 # try slicing the list: print(movies[1:4])
 print("Sliced movies:", movies[1:4])  # Slicing the list to get movies from index 1 to 3 #output: ['The Matrix', 'Interstellar', 'The Shawshank Redemption']
+#Open the file romeo.txt and read it line by line. For each line, split the line into a list of words using the split() method. The program should build a list of words. For each word on each line check to see if the word is already in the list and if not append it to the list. When the program completes, sort and print the resulting words in python sort() order as shown in the desired output.
+#You can download the sample data at http://www.py4e.com/code3/romeo.txt
+
+fname = input("Enter file name: ") #enter"C:\Users\TANMAY\OneDrive\Documents\GitHub\python-ml-learning-journey\Python Days\romeo.txt"
+fh = open(fname)
+lst = []
+for line in fh:
+    # Remove leading/trailing whitespace and split into words
+    words = line.rstrip().split()
+    for word in words:
+        if word not in lst:
+            lst.append(word)
+lst.sort()
+print(lst)
+#output: ['Arise', 'But', 'By', 'Come', 'It', 'Juliet', 'O', 'and', 'envious', 'eyes', 'fair', 'from', 'is', 'moon', 'not', 'that', 'the', 'who']
